@@ -4,7 +4,7 @@
 
 主题使用系统字体和本地资源，提供响应式导航、搜索、分类入口、文章详情及中英文文案。视觉与交互约定见 [设计说明](docs/design.md)。
 
-当前版本为 **0.1.0**，已在本地独立仓库完成，尚未公开推送或发布 Release。已通过公共工具锁定的 ZrLog **3.9.2** 目录/ZIP 安装验收，以及桌面、手机浏览器检查。`theme.json` 中的 GitHub 地址是预留地址，`latestRelease` 保持 `null`。
+当前版本为 **0.1.0**，源码托管于独立仓库 [zrlog-extensions/template-open-journal](https://github.com/zrlog-extensions/template-open-journal)，尚未发布 Release。已通过公共工具锁定的 ZrLog **3.9.2** 目录/ZIP 安装验收，以及桌面、手机浏览器检查。`theme.json` 的 `latestRelease` 保持 `null`，正式发布后由公共工具生成下载信息。
 
 ![Open Journal 首页预览](images/preview.jpg)
 
@@ -71,7 +71,7 @@ bash ../templates/bin/verify-preview.sh . 17081 template-open-journal
 
 本仓库维护源码、设计、版本和 `theme.json`；[templates](https://github.com/zrlog-extensions/templates) 提供公共构建上传工具及主题索引，供 zrlog-www 呈现主题市场。
 
-建立对应 GitHub 仓库并推送代码后，普通 `main` push 和 PR 会调用公共 workflow 构建及验证目录/ZIP；推送 `v<version>` tag 才会上传 GitHub Release。发布前应确认 `template.properties` 的版本、验收记录和预览图已更新。
+普通 `main` push 和 PR 会调用公共 workflow 构建及验证目录/ZIP；推送 `v<version>` tag 才会上传 GitHub Release。发布前应确认 `template.properties` 的版本、验收记录和预览图已更新。
 
 以当前 `version=0.1.0` 为例，先生成可审阅的发布文件：
 
