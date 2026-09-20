@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "template-open-journal",
+  "name": "Open Journal",
+  "author": "ZrLog",
+  "description": "编辑型博客主题，采用大标题、焦点文章、规则卡片和蓝色点缀，支持响应式布局与中英文。",
+  "repository": "https://github.com/zrlog-extensions/template-open-journal",
+  "engine": "freemarker",
+  "sourceDirectory": ".",
+  "testedRuntime": "3.9.2",
+  "preview": "https://raw.githubusercontent.com/zrlog-extensions/template-open-journal/main/images/preview.jpg",
+  "createdDate": "2026-09-21 00:00:00",
+  "tags": [
+    "编辑型",
+    "响应式",
+    "简洁"
+  ],
+  "en": {
+    "name": "Open Journal",
+    "desc": "An editorial blog theme with generous typography, a featured story, a card grid and blue accents. Responsive, with Chinese and English support.",
+    "tags": [
+      "Editorial",
+      "Responsive",
+      "Minimal"
+    ]
+  },
+  "distribution": {
+    "mode": "shared",
+    "target": "github-release"
+  },
+  "latestRelease": null
+}

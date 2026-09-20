@@ -1,0 +1,5 @@
+{
+  "introTitle": {"label": "首页标题", "htmlElementType": "input", "type": "text", "placeholder": "好想法，值得被看见。"},
+  "introText": {"label": "首页说明", "htmlElementType": "textarea", "type": "text", "placeholder": "记录日常里的发现，分享值得停留的故事。"},
+  "footerText": {"label": "页脚说明", "htmlElementType": "input", "type": "text", "placeholder": "给想法一个生长的地方。"}
+}

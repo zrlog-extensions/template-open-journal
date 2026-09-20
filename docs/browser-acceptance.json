@@ -1,0 +1,190 @@
+{
+  "runtime": "3.9.2",
+  "theme": "Open Journal",
+  "pages": [
+    {
+      "device": "desktop",
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/all-2",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/writing-on-my-own-site",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/notes-from-the-past",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/sort/notes",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/tag/ZrLog",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/record/2026_07",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/search?key=ZrLog",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/search?key=no-such-article-987654",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/does-not-exist",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/tags",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/categories",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/archives",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "desktop",
+      "route": "/links",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/all-2",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/writing-on-my-own-site",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/notes-from-the-past",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/sort/notes",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/tag/ZrLog",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/record/2026_07",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/search?key=ZrLog",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/search?key=no-such-article-987654",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/does-not-exist",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/tags",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/categories",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/archives",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "device": "mobile",
+      "route": "/links",
+      "status": 200,
+      "overflow": false
+    }
+  ],
+  "interactions": [
+    "desktop: search submits, Escape focus and HTML-sensitive input preserve exact text",
+    "desktop: broken cover falls back to local illustration",
+    "desktop: empty site, custom settings and empty comment mode",
+    "Mobile menu opens, Escape closes and restores focus",
+    "mobile: search submits, Escape focus and HTML-sensitive input preserve exact text",
+    "mobile: broken cover falls back to local illustration",
+    "mobile: empty site, custom settings and empty comment mode",
+    "English defaults render",
+    "Navigation and search remain usable without JavaScript",
+    "Numeric article URL hides missing adjacent article placeholder",
+    "800px tablet layout and unknown category heading checked",
+    "Empty comment heading is hidden"
+  ],
+  "errors": [],
+  "passed": true
+}
